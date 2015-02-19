@@ -1,0 +1,157 @@
+
+<div class="container" id="page-wrapper">
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1" id="logout">
+            <div class="page-header">
+                <h1>Leave<small> your message</small></h1>
+
+            </div>
+
+                <div class="comment-tabs">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#comments-logout" role="tab" data-toggle="tab"><h4 class="reviews text-capitalize">Comments</h4></a></li>
+                        <li><a href="#add-comment" role="tab" data-toggle="tab"><h4 class="reviews text-capitalize">Add comment</h4></a></li>
+
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="comments-logout">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg" alt="profile">
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="well well-lg">
+                                            <h4 class="media-heading text-uppercase reviews">Marco </h4>
+                                            <ul class="media-date text-uppercase reviews list-inline">
+                                                <li class="dd">22</li>
+                                                <li class="mm">09</li>
+                                                <li class="aaaa">2014</li>
+                                            </ul>
+                                            <p class="media-comment">
+                                                Great snippet! Thanks for sharing.
+                                            </p>
+                                            <a class="btn btn-info btn-default text-uppercase" href="#" id="reply"><span class="glyphicon glyphicon-share-alt"></span> Reply</a>
+                                            <a class="btn btn-primary btn-default text-uppercase" data-toggle="collapse" href="#replyOne"><span class="glyphicon glyphicon-comment"></span> 2 comments</a>
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="replyOne">
+                                        <ul class="media-list">
+                                            <li class="media media-replied">
+                                                <a class="pull-left" href="#">
+                                                    <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/ManikRathee/128.jpg" alt="profile">
+                                                </a>
+                                                <div class="media-body">
+                                                    <div class="well well-lg">
+                                                        <h4 class="media-heading text-uppercase reviews"><span class="glyphicon glyphicon-share-alt"></span> The Hipster</h4>
+                                                        <ul class="media-date text-uppercase reviews list-inline">
+                                                            <li class="dd">22</li>
+                                                            <li class="mm">09</li>
+                                                            <li class="aaaa">2014</li>
+                                                        </ul>
+                                                        <p class="media-comment">
+                                                            Nice job Maria.
+                                                        </p>
+                                                        <a class="btn btn-info btn-default text-uppercase" href="#" id="reply"><span class="glyphicon glyphicon-share-alt"></span> Reply</a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="media media-replied" id="replied">
+                                                <a class="pull-left" href="#">
+                                                    <img class="media-object img-circle" src="https://pbs.twimg.com/profile_images/442656111636668417/Q_9oP8iZ.jpeg" alt="profile">
+                                                </a>
+                                                <div class="media-body">
+                                                    <div class="well well-lg">
+                                                        <h4 class="media-heading text-uppercase reviews"><span class="glyphicon glyphicon-share-alt"></span> Mary</h4></h4>
+                                                        <ul class="media-date text-uppercase reviews list-inline">
+                                                            <li class="dd">22</li>
+                                                            <li class="mm">09</li>
+                                                            <li class="aaaa">2014</li>
+                                                        </ul>
+                                                        <p class="media-comment">
+                                                            Thank you Guys!
+                                                        </p>
+                                                        <a class="btn btn-info btn-default text-uppercase" href="#" id="reply"><span class="glyphicon glyphicon-share-alt"></span> Reply</a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane" id="add-comment">
+                            <form action="#" method="post" class="form-horizontal" id="commentForm" role="form">
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">Comment</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" name="addComment" id="addComment" rows="5"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button class="btn btn-primary btn-default text-uppercase" type="submit" id="submitComment"><span class="glyphicon glyphicon-send"></span> Summit comment</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane" id="account-settings">
+                            <form action="#" method="post" class="form-horizontal" id="accountSetForm" role="form">
+                                <div class="form-group">
+                                    <label for="avatar" class="col-sm-2 control-label">Avatar</label>
+                                    <div class="col-sm-10">
+                                        <div class="custom-input-file">
+                                            <label class="uploadPhoto">
+                                                Edit
+                                                <input type="file" class="change-avatar" name="avatar" id="avatar">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name" class="col-sm-2 control-label">Name</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Vilma palma">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="nickName" class="col-sm-2 control-label">Nick name</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" name="nickName" id="nickName" placeholder="Vilma">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="vilma@mail.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="newPassword" class="col-sm-2 control-label">New password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" name="newPassword" id="newPassword">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="confirmPassword" class="col-sm-2 control-label">Confirm password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" name="confirmPassword" id="confirmPassword">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button class="btn btn-primary btn-circle text-uppercase" type="submit" id="submit">Save changes</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+</div>
+        </div>
+    </div>

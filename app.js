@@ -1,0 +1,96 @@
+/**
+ * Created by pasma08 on 12/02/2015.
+ */
+
+var myApp= angular.module('myApp', ["ui.router"]);
+
+myApp.config(function ($stateProvider,$urlRouterProvider) {
+    $urlRouterProvider.otherwise("blank.html");
+    $stateProvider
+
+        .state('CSIR',{
+            url:"/CSIR",
+            templateUrl:"partials/blank.html"
+        })
+        .state('comment',{
+            url:"/comment",
+            templateUrl:"partials/comment.html"
+        })
+        .state('login',{
+            url:"/login",
+            templateUrl:"partials/login.html"
+        })
+
+        .state('cloudProvider',{
+            url:"/cloudProvider",
+            templateUrl:"partials/cloudProvider.html"
+        })
+        .state('cloudProvider.amazon',{
+            url:"/amazon",
+            templateUrl:"partials/cloudProvider.amazon.html"
+        })
+        .state('cloudProvider.rackspace',{
+            url:"/rackspace",
+            templateUrl:"partials/cloudProvider.rackspace.html"
+        })
+        .state('ccmStandard',{
+            url:"/ccmStandard",
+            templateUrl:"partials/ccmStandard.html"
+        })
+        .state('ccmStandard.GAPP',{
+            url:"/GAPP",
+            templateUrl:"partials/ccmStandard.GAPP.html"
+        })
+        .state('ccmStandard.ISO',{
+            url:"/ISO",
+            templateUrl:"partials/ccmStandard.ISO.html"
+        })
+        .state('ccmStandard.NIST',{
+            url:"/NIST",
+            templateUrl:"partials/ccmStandard.NIST.html"
+        })
+        .state('ccmStandard.PCI',{
+            url:"/PCI",
+            templateUrl:"partials/ccmStandard.PCI.html"
+        })
+        .state('ccmStandard.sharedAssess',{
+            url:"/sharedAssess",
+            templateUrl:"partials/ccmStandard.sharedAssess.html"
+        })
+        .state('serviceModel',{
+            url:"/serviceModel",
+            templateUrl:"partials/serviceModel.html"
+        })
+        .state('serviceModel.Iaas',{
+            url:"/Iaas",
+            templateUrl:"partials/serviceModel.Iaas.html"
+        })
+        .state('serviceModel.Paas',{
+            url:"/Paas",
+            templateUrl:"partials/serviceModel.Paas.html"
+        })
+        .state('serviceModel.Saas',{
+            url:"/Saas",
+            templateUrl:"partials/serviceModel.Saas.html"
+        })
+        .state('poll',{
+            url:"/poll",
+            templateUrl:"partials/poll.html"
+        })
+        .state('poll.legal',{
+            url:"/legal",
+            templateUrl:"partials/poll.legal.html"
+        })
+        .state('poll.operational',{
+            url:"/operational",
+            templateUrl:"partials/poll.operational.html"
+        })
+        .state('poll.security',{
+            url:"/security",
+            templateUrl:"partials/poll.security.html"
+        })
+        .state('contact',{
+            url:"/contact",
+            templateUrl:"partials/contact.html"
+        });
+});

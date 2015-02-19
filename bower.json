@@ -1,0 +1,41 @@
+{
+  "name": "A user-enriched platform to form an intelligent cloud service information repository",
+  "version": "0.1",
+  "homepage": "false",
+  "authors": [
+    "Maryam Pashmi"
+  ],
+  "description": "A free, open source, platform which acquires relevant information about a number of cloud service providers in different dimensions.",
+  "keywords": [
+    "Cloud Service Provider",
+    "Comparison Platform"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.8",
+    "ui-router": "~0.2.13",
+    "traceur-runtime": "~0.0.81",
+    "bootstrap": "~3.3.1",
+    "datatables": "~1.10.4",
+    "datatables-plugins": "~1.0.1",
+    "flot": "~0.8.3",
+    "font-awesome": "~4.2.0",
+    "holderjs": "~2.4.1",
+    "metisMenu": "~1.1.3",
+    "morrisjs": "~0.5.1",
+    "datatables-responsive": "~1.0.3",
+    "bootstrap-social": "~4.8.0",
+    "flot.tooltip": "~0.8.4",
+    "angular-formly": "~1.0.0",
+    "angular-formly-templates-bootstrap": "~0.0.2",
+    "angular-formly-templates-vanilla": "~0.0.2"
+  }
+}

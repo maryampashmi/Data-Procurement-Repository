@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>intelligent cloud service information repository</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+
+    <!-- MetisMenu CSS -->
+    <link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/sb-admin-2.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery-1.11.2.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="bower_components/temp_formly_fix/formly.js"></script>
+    <script src="bower_components/temp_formly_fix/angular-formly-templates-bootstrap.min.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+            <a class="navbar-brand" ui-sref ="CSIR">Cloud Service Information Repository (CSIR)</a>
+
+        </div>
+        <!-- /.navbar-header -->
+
+        <ul class="nav navbar-top-links navbar-right">
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-alerts">
+                    <li>
+                        <a ui-sref="comment">
+                            <div>
+                                <i class="fa fa-comment fa-fw"></i> New Comment
+
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li class="divider"></li>
+                    <li>
+                        <a ui-sref="contact">
+                            <div>
+                                <i class="fa fa-envelope fa-fw"></i> Contact Us
+
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- /.dropdown-alerts -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a ui-sref="login"><i class="fa fa-user fa-fw"></i>Log in / Sign Up</a>
+                    </li>
+
+                    <li class="divider"></li>
+                    <li><a ui-sref="CSIR"><i class="fa fa-question-circle fa-fw"></i>Help</a>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+            <!-- /.dropdown -->
+        </ul>
+        <!-- /.navbar-top-links -->
+
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <ul class="nav in" id="side-menu">
+                    <li class="sidebar-search">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                    </li>
+
+                    <li>
+                        <a ui-sref="cloudProvider"><i class="fa fa-cloud fa-fw"></i>Cloud Providers<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li>
+                                <a ui-sref="cloudProvider.rackspace">Rack Space</a>
+                            </li>
+                            <li>
+                                <a ui-sref="cloudProvider.amazon">Amazon aws</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a ui-sref="ccmStandard"><i class="fa fa-tasks fa-fw"></i>CCM Standards<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li>
+                                <a ui-sref="ccmStandard.ISO">ISO 27001</a>
+                            </li>
+                            <li>
+                                <a ui-sref="ccmStandard.NIST">NIST SP 800-53</a>
+                            </li>
+                            <li>
+                                <a ui-sref="ccmStandard.GAPP">GAPP</a>
+                            </li>
+                            <li>
+                                <a ui-sref="ccmStandard.PCI">PCI </a>
+                            </li>
+                            <li>
+                                <a ui-sref="ccmStandard.sharedAssess"> BITS Shared Assessments</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a ui-sref="serviceModel"><i class="fa fa-sitemap fa-fw"></i> Service Models<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li>
+                                <a ui-sref="serviceModel.Iaas">Iaas</a>
+                            </li>
+                            <li>
+                                <a ui-sref="serviceModel.Paas">Paas</a>
+                            </li>
+                            <li>
+                                <a ui-sref="serviceModel.Saas">Saas</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a ui-sref="poll"><i class="fa fa-list fa-fw"></i> Polls <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li>
+                                <a ui-sref="poll.operational">Operational/Organizational</a>
+                            </li>
+                            <li>
+                                <a ui-sref="poll.legal">Legal</a>
+                            </li>
+                            <li>
+                                <a ui-sref="poll.security">Security</a>
+                            </li>
+
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+
+                    <li>
+
+                        <a ui-sref="contact"><i class="active fa fa-envelope fa-fw"></i>Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- /.sidebar-collapse -->
+
+        </div>
+        <!-- /.navbar-static-side -->
+    </nav>
+
+    <!-- /.dddd -->
+    <!-- /. -->
+    <!-- Page Content -->
+
+    <div ui-view></div>
+</div>
+<!-- /#wrapper -->
+
+<script type="text/javascript" src="app.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/jquery/dist/jquery-1.11.2.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>
+<script src="bower_components/traceur-runtime/traceur-runtime.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/sb-admin-2.js"></script>
+<script src="controllers/formController.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
