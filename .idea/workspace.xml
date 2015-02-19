@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09460d6d-ed5d-48b6-9b9a-9edcd88bdb88" name="Default" comment="" />
+    <list default="true" id="09460d6d-ed5d-48b6-9b9a-9edcd88bdb88" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\pasma08\WebstormProjects\CSPcomparision\bower_components\angular-formly-templates-bootstrap\src\modules\formlyBootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pasma08\WebstormProjects\CSPcomparision\bower_components\angular-formly-templates-bootstrap\src\wrappers\formly-wrappers-bootstrap-has-error.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pasma08\WebstormProjects\CSPcomparision\bower_components\angular-formly-templates-bootstrap\src\wrappers\formly-wrappers-bootstrap-label.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pasma08\WebstormProjects\CSPcomparision\bower_components\angular-formly-templates-bootstrap\umd.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pasma08\WebstormProjects\CSPcomparision\bower_components\angular-formly-templates-vanilla\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pasma08\WebstormProjects\CSPcomparision\bower_components\angular-formly-templates-vanilla\src\modules\formlyVanilla.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pasma08\WebstormProjects\CSPcomparision\bower_components\angular-formly-templates-vanilla\src\wrappers\formly-wrappers-vanilla-label.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pasma08\WebstormProjects\CSPcomparision\bower_components\angular-formly-templates-vanilla\umd.hbs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/Gruntfile.js" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/README.md" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/README.md" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/datatables-plugins/filtering/row-based/TableTools.ShowSelectedOnly.js" afterPath="$PROJECT_DIR$/bower_components/datatables-plugins/filtering/row-based/TableTools.ShowSelectedOnly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.js" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/temp_formly_fix/angular-formly-templates-bootstrap.min.js" afterPath="$PROJECT_DIR$/bower_components/temp_formly_fix/angular-formly-templates-bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.min.map" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/dist/angular-formly-templates-bootstrap.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/dist/angular-formly-templates-vanilla.js" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/dist/angular-formly-templates-vanilla.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/dist/angular-formly-templates-vanilla.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/dist/angular-formly-templates-vanilla.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/dist/angular-formly-templates-vanilla.min.map" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/dist/angular-formly-templates-vanilla.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/blank.html" afterPath="$PROJECT_DIR$/partials/blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/ccmStandard.GAPP.html" afterPath="$PROJECT_DIR$/partials/ccmStandard.GAPP.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/ccmStandard.ISO.html" afterPath="$PROJECT_DIR$/partials/ccmStandard.ISO.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/ccmStandard.NIST.html" afterPath="$PROJECT_DIR$/partials/ccmStandard.NIST.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/ccmStandard.PCI.html" afterPath="$PROJECT_DIR$/partials/ccmStandard.PCI.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/ccmStandard.html" afterPath="$PROJECT_DIR$/partials/ccmStandard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/ccmStandard.sharedAssess.html" afterPath="$PROJECT_DIR$/partials/ccmStandard.sharedAssess.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/datatables-plugins/sorting/chinese-string.js" afterPath="$PROJECT_DIR$/bower_components/datatables-plugins/sorting/chinese-string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/cloudProvider.amazon.html" afterPath="$PROJECT_DIR$/partials/cloudProvider.amazon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/cloudProvider.html" afterPath="$PROJECT_DIR$/partials/cloudProvider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/cloudProvider.rackspace.html" afterPath="$PROJECT_DIR$/partials/cloudProvider.rackspace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/contact.html" afterPath="$PROJECT_DIR$/partials/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/formController.js" afterPath="$PROJECT_DIR$/controllers/formController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/src/fields/formly-field-checkbox.html" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/src/fields/formly-field-checkbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/src/fields/formly-field-checkbox.html" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/src/fields/formly-field-checkbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/src/fields/formly-field-radio.html" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/src/fields/formly-field-radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/src/fields/formly-field-radio.html" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/src/fields/formly-field-radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/src/fields/formly-field-select.html" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/src/fields/formly-field-select.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/src/fields/formly-field-select.html" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/src/fields/formly-field-select.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/temp_formly_fix/formly.js" afterPath="$PROJECT_DIR$/bower_components/temp_formly_fix/formly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery-migrate-1.2.1.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery-migrate-1.2.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/mocha/media/logo.svg" afterPath="$PROJECT_DIR$/bower_components/mocha/media/logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.css" afterPath="$PROJECT_DIR$/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/package.json" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-bootstrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/package.json" afterPath="$PROJECT_DIR$/bower_components/angular-formly-templates-vanilla/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/poll.html" afterPath="$PROJECT_DIR$/partials/poll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/poll.legal.html" afterPath="$PROJECT_DIR$/partials/poll.legal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/poll.operational.html" afterPath="$PROJECT_DIR$/partials/poll.operational.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/poll.security.html" afterPath="$PROJECT_DIR$/partials/poll.security.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/sb-admin-2.css" afterPath="$PROJECT_DIR$/styles/sb-admin-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sb-admin-2.js" afterPath="$PROJECT_DIR$/js/sb-admin-2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/serviceModel.Iaas.html" afterPath="$PROJECT_DIR$/partials/serviceModel.Iaas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/serviceModel.Paas.html" afterPath="$PROJECT_DIR$/partials/serviceModel.Paas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/serviceModel.Saas.html" afterPath="$PROJECT_DIR$/partials/serviceModel.Saas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/serviceModel.html" afterPath="$PROJECT_DIR$/partials/serviceModel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/timeline.css" afterPath="$PROJECT_DIR$/styles/timeline.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="CSPcomparision.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,58 +98,28 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
+            <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="2550">
               <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poll.security.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/poll.security.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="375">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.176471" vertical-offset="511" max-vertical-offset="1175">
-              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.38913044" vertical-offset="546" max-vertical-offset="1175">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/comment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.617647" vertical-offset="625" max-vertical-offset="4075">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="156754" max-vertical-offset="164300">
-              <caret line="6287" column="0" selection-start-line="6287" selection-start-column="0" selection-end-line="6287" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94262296" vertical-offset="125" max-vertical-offset="5525">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.7352943" vertical-offset="371" max-vertical-offset="5550">
+              <caret line="24" column="104" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -87,18 +128,8 @@
       <file leaf-file-name="poll.legal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/poll.legal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.352941" vertical-offset="0" max-vertical-offset="475">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formly.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/temp_formly_fix/formly.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8675">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="23" />
+            <state vertical-scroll-proportion="-8.088235" vertical-offset="0" max-vertical-offset="475">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -107,20 +138,8 @@
       <file leaf-file-name="formController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/formController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
-              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="3700">
-              <caret line="97" column="7" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1150">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -180,11 +199,11 @@
         <option value="$PROJECT_DIR$/partials/login.html" />
         <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/partials/comment.html" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/controllers/formController.js" />
-        <option value="$PROJECT_DIR$/partials/poll.legal.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/partials/poll.legal.html" />
+        <option value="$PROJECT_DIR$/controllers/formController.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
       </list>
     </option>
   </component>
@@ -295,7 +314,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="temp_formly_fix" />
+              <option name="myItemId" value="angular-formly-templates-vanilla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSPcomparision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSPcomparision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-formly-templates-vanilla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,14 +391,10 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -365,6 +402,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -422,8 +463,8 @@
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19582851" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3696408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -435,11 +476,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4438007" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -457,9 +498,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15547329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -560,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="2100">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="9000">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="2100">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1250">
           <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,24 +821,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="156754" max-vertical-offset="164300">
+        <state vertical-scroll-proportion="0.6163982" vertical-offset="156754" max-vertical-offset="164300">
           <caret line="6287" column="0" selection-start-line="6287" selection-start-column="0" selection-end-line="6287" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3466872" vertical-offset="625" max-vertical-offset="4075">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/poll.security.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33987916" vertical-offset="0" max-vertical-offset="662">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="3700">
+        <state vertical-scroll-proportion="0.43103448" vertical-offset="2125" max-vertical-offset="3700">
           <caret line="97" column="7" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
+    <entry file="file://$PROJECT_DIR$/bower_components/temp_formly_fix/formly.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.176471" vertical-offset="511" max-vertical-offset="1175">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+        <state vertical-scroll-proportion="-0.5124451" vertical-offset="650" max-vertical-offset="8675">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -814,52 +867,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/poll.security.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="375">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state vertical-scroll-proportion="-6.7352943" vertical-offset="371" max-vertical-offset="5550">
+          <caret line="24" column="104" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/comment.html">
+    <entry file="file://$PROJECT_DIR$/partials/poll.legal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.617647" vertical-offset="625" max-vertical-offset="4075">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state vertical-scroll-proportion="-8.088235" vertical-offset="0" max-vertical-offset="475">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/formController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/poll.legal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.352941" vertical-offset="0" max-vertical-offset="475">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1150">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/temp_formly_fix/formly.js">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8675">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94262296" vertical-offset="125" max-vertical-offset="5525">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.38913044" vertical-offset="546" max-vertical-offset="1175">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding />
         </state>
       </provider>

@@ -1,9 +1,20 @@
-<div class="checkbox">
+<div class="checkbox"
+     ng-class="{'has-error': options.formField.$invalid}">
 	<label>
 		<input type="checkbox"
-           class="formly-field-checkbox"
-		       ng-model="model[options.key]">
-		{{options.templateOptions.label}}
-		{{options.templateOptions.required ? '*' : ''}}
+		       id="{{id}}"
+		       formly-dynamic-name="options.key"
+		       formly-custom-validation="options.validators"
+		       aria-describedby="{{id}}_description"
+		       ng-required="options.required"
+		       ng-disabled="options.disabled"
+		       ng-model="result[options.key || index]">
+		{{options.label || 'Checkbox'}}
+		{{options.required ? '*' : ''}}
 	</label>
+	<p id="{{id}}_description"
+	   class="help-block"
+	   ng-if="options.description">
+		{{options.description}}
+	</p>
 </div>

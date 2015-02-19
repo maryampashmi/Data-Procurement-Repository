@@ -1,14 +1,13 @@
 {
   "name": "angular-formly-templates-bootstrap",
-  "version": "3.0.1",
+  "version": "0.0.2",
   "authors": [
     "Astrism <astrisms@gmail.com>"
   ],
-  "contributors": [
-    "Astrism <astrisms@gmail.com>",
-    "Kent C. Dodds <kent@doddsfamily.us>"
+  "main": [
+    "dist/angular-formly-templates-bootstrap.min.js",
+    "dist/angular-formly-templates-bootstrap.min.map"
   ],
-  "main": "dist/angular-formly-templates-bootstrap.js",
   "description": "Angular-Formly plugin which outputs bootstrap compatible form fields.",
   "keywords": [
     "AngularJs",
@@ -28,22 +27,24 @@
   ],
   "dependencies": {
     "angular": "~1.2.22",
-    "angular-formly": "~1.0.0",
-    "bootstrap": "~3.2.0"
+    "angular-formly": "~1.0.0"
   },
   "devDependencies": {
+    "angular-ui-router": "~0.2.10",
+    "angular-highlightjs": "~0.3.0",
+    "highlightjs": "~8.0.0",
+    "bootstrap": "~3.2.0",
     "chai": "~1.9.1",
     "mocha": "~1.21.4"
   },
   "homepage": "https://github.com/formly-js/angular-formly-templates-bootstrap",
-  "_release": "3.0.1",
+  "_release": "0.0.2",
   "_resolution": {
     "type": "version",
-    "tag": "3.0.1",
-    "commit": "28c214d1fdaafee142b66c735ede62eca9a0d0f1"
+    "tag": "0.0.2",
+    "commit": "f0402e9c145bfa7e44a0d1df72aee1d2a8c42903"
   },
   "_source": "git://github.com/formly-js/angular-formly-templates-bootstrap.git",
-  "_target": "~3.0.1",
-  "_originalSource": "angular-formly-templates-bootstrap",
-  "_direct": true
+  "_target": "~0.0.2",
+  "_originalSource": "angular-formly-templates-bootstrap"
 }
