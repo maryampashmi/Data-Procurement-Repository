@@ -2,9 +2,7 @@
  * Created by pasma08 on 12/02/2015.
  */
 
-var myApp= angular.module('myApp', ['ui.router'
-    , 'formly']);
-
+var myApp= angular.module('myApp', ['ui.router']);
 myApp.config(function ($stateProvider,$urlRouterProvider) {
     $urlRouterProvider.otherwise("blank.html");
     $stateProvider
@@ -80,7 +78,8 @@ myApp.config(function ($stateProvider,$urlRouterProvider) {
         })
         .state('poll.legal',{
             url:"/legal",
-            templateUrl:"partials/poll.legal.html"
+            templateUrl:"partials/poll.legal.html",
+            controller:'formController'
         })
         .state('poll.operational',{
             url:"/operational",
@@ -93,5 +92,6 @@ myApp.config(function ($stateProvider,$urlRouterProvider) {
         .state('contact',{
             url:"/contact",
             templateUrl:"partials/contact.html"
-        });
-});
+        })
+})
+
