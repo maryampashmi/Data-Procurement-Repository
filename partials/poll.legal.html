@@ -1,14 +1,12 @@
-<body ng-app="myApp" ng-controller="formController">
-<div class="row">
-    <div class="col-sm-12 col-lg-12">
-        <h1 class="h1 page-header">
-            Legal<small> questioner </small></h1>
+
+    <div class="row">
+        <div class="col-sm-12 col-lg-12">
+            <h1 class="h1 page-header">
+                Legal<small> questioner </small></h1>
+        </div>
     </div>
-</div>
 
 <p>Here you can find question related to legalisation.</p>
-<div>
-    <formly-form model="formData" fields="formFields">
-        <button ng-click="onSubmit()">Hello World</button>
-    </formly-form></div>
-</body>
+<formly-form model="Form.formData" fields="From.formFields">
+    <button ng-click="Form.onSubmit()">Hello World</button>
+</formly-form></div>

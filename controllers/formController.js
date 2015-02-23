@@ -1,41 +1,17 @@
-/**
- * Created by pasma08 on 20/02/2015.
- */
-
-var formController = function($scope) {
-    $scope.formData = {};
-    $scope.formFields = [
-        {
-            //the key to be used in the model values {... "username": "johndoe" ... }
-            key: 'username',
-            type: 'input',
-            templateOptions: {
-                label: 'Username',
-                placeholder: 'johndoe',
-                required: true,
-                description: 'Descriptive text'
-            }
-        },
-        {
-            key: 'password',
-            type: 'input',
-            templateOptions: {
-                type: 'password',
-                label: 'Password',
-                required: true
-            },
-            expressionProperties: {
-                'templateOptions.disabled': '!model.username' // disabled when username is blank
-            }
+angular.module('myApp').controller('formController', function () {
+this.formData = {};
+this.formFields = [
+    {
+        key: 'story',
+        type: 'textarea',
+        templateOptions: {
+            label: 'Some sweet story',
+            placeholder: 'It allows you to build and maintain your forms with the ease of JavaScript :-)'
         }
+    }
     ];
 
-    $scope.onSubmit = function() {
-        console.log('form submitted:', $scope.formData);
+    this.onSubmit = function() {
+        console.log('form submitted:', this.formData);
     };
-};
-
-angular.module('myApp', ['formly', 'formlyVanilla']);
-
-angular.module('myApp')
-    .controller('formController', formController);
+});
