@@ -2,11 +2,10 @@ angular.module('myApp').controller('formController', function () {
 this.formData = {};
 this.formFields = [
     {
-        key: 'story',
-        type: 'textarea',
-        templateOptions: {
-            label: 'Some sweet story',
-            placeholder: 'It allows you to build and maintain your forms with the ease of JavaScript :-)'
+        "type": "checkbox",
+        "key": "checkThis",
+        "templateOptions": {
+            "label": "Check this box"
         }
     }
     ];

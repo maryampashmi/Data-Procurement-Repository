@@ -2,7 +2,7 @@
  * Created by pasma08 on 12/02/2015.
  */
 
-angular.module('myApp', ["ui.router", 'formly'])
+angular.module('myApp', ['ng', "ui.router", 'formly', 'formlyBootstrap'])
 .config(function ($stateProvider,$urlRouterProvider) {
     $urlRouterProvider.otherwise("blank.html");
     $stateProvider
